@@ -1,38 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#FEATURES TO ADD
 
-## Getting Started
+-favicon and meta keywords
+-de entrada muestra muchisimas categorias, incluidas seguir viendo, eso debe estar guardado en la session
+-en Row en el map de movies, hacer el hover que incluya info de la peli
+-el boton play deberia llevarte a [id], y more info deberia sacar un modal con mas info y la peli
+-agregar lenguages
+-agregar fotito de google al lado de la carita de logout (eso no es asi en netflix real)
+-los li del nav ahora no hacen nada. 
+En Netlfix hace asi: series te lleva a Series, donde muestras muchas otras busquedas preset, pero ademas te ofrece un boton de Género.
+Peliculas es igual.
+Mi lista: ahi habria que ver como se van agregando a tu session tus pelis preferidas
+Novedades igual pero sin genero
+Idioma: idioma original, idioma elegido y elegir tipo de sort.
 
-First, run the development server:
+-no esta hecho el input de busqueda, tampoco campanita ni kids.
+Busqueda por titulos, generos o personas.
+Ninños te lleva a un perfil nuevo donde no hya nada para mayores de 18.,
+Carita, editas tu nombre de perfil e idioma
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+-falta footer, es muy simplecito el que hay pero lleva a muchas otras paginas
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-pasar las props en un context? o no hace falta
+-agregar typescript?
