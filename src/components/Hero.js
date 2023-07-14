@@ -28,7 +28,7 @@ const Hero = ({ moviePosters }) => {
   }, [moviePosters]);
 
   return (
-    <div>
+    <div >
       <MovieDetails
         movie={movie}
         showPlayer={showPlayer}
